@@ -10,6 +10,6 @@ class music_player(models.Model):
     filename = fields.Char()
     url = fields.Char(compute="_compute_url")
 
-def _compute_url(self):
-    for record in self:
-        record.url = record.get_base_url() + '/music/' + str(record.id)
+    def _compute_url(self):
+        for record in self:
+            record.url = record.get_base_url() + '/music/' + str(record.id)

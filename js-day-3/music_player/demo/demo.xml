@@ -1,25 +1,16 @@
 <odoo>
-    <data>
+  <record id="song1" model="music_player.music_player">
+    <field name="name">song1 - bella-ciao</field>
+    <field name="filename">bella-ciao.mp3</field>
+  </record>
 
-          <record id="song0" model="music_player.music_player">
-            <field name="name">Test-song-0</field>
-            <field name="filename">Test-song-0.mp3</field>
-          </record>
-
-          <record id="song1" model="music_player.music_player">
-            <field name="name">Test-song-1</field>
-            <field name="filename">Test-song-1.mp3</field>
-          </record>
-
-          <record id="song2" model="music_player.music_player">
-            <field name="name">Test-song-2</field>
-            <field name="filename">Test-song-2.mp3</field>
-          </record>
-
-          <record id="song3" model="music_player.music_player">
-            <field name="name">Test-song-3</field>
-            <field name="filename">Test-song-3.mp3</field>
-          </record>
-
-    </data>
+  <record id="song2" model="music_player.music_player">
+    <field name="name">song2 - kesariya</field>
+    <field name="filename">kesariya.mp3</field>
+  </record>
+  
+  <record id="song3" model="music_player.music_player">
+    <field name="name">song3 - pasoori</field>
+    <field name="filename">pasoori.mp3</field>
+  </record>
 </odoo>
